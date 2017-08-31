@@ -611,8 +611,13 @@ def write_data_out(prot_dict, codon_table, args):
 	update_spreadsheet_dict = {}
 
 	for k, v in prot_dict.items():
-		new_name = k.split('_Len')[0]+'_Len'+str(len(v[-2]))+'_'+'_'.join(k.split('_')[-3:])
-		update_spreadsheet_dict[k] = new_name
+		if 'Cov' in k:
+			new_name = k.split('_Len')[0]+'_Len'+str(len(v[-2]))+'_'+'_'.join(k.split('_')[-3:])
+			update_spreadsheet_dict[k] = new_name
+		else:
+			new_name = k.split('_Len')[0]+'_Len'+str(len(v[-2]))+'_'+'_'.join(k.split('_')[-2:])
+			update_spreadsheet_dict[k] = new_name
+			
 
 	with open(args.input_file.split('.fas')[0]+'_'+args.genetic_code.title()+'_ORF.fasta','w+') as w:
 		print (color.BOLD+'\n\nWriting FASTA file with '+color.PURPLE+'ORF'+color.END+color.BOLD\
@@ -639,8 +644,9 @@ def clean_up(args):
 		
 	os.system('mv '+args.input_file+' ../'+args.input_file.split('/')[1]+'/UsearchOG')
 
-	if args.input_file.split('.fas')[0]+'_StopCodonStats.tsv' not in os.listdir('../'+\
-	args.input_file.split('/')[1]+'/StopCodonFreq/'):
+
+	if args.input_file.split('.fas')[0]+'_StopCodonStats.tsv' in os.listdir('../'+\
+	args.input_file.split('/')[1]):
 		os.system('mv '+args.input_file.split('.fas')[0]+'_StopCodonStats.tsv ../'+\
 		args.input_file.split('/')[1]+'/StopCodonFreq/')
 

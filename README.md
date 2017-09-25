@@ -8,12 +8,12 @@ Request viewing access to [Katz-Lab SciWiki](https://sciwiki.smith.edu/katzlab_p
 There you will find detailed information about each major script (step) as well as more detailed information on assembler choice and the phylogenomic pipeline as well. 
 
 
-### Note about PostAssembly.tar.gz 
+#### Note about PostAssembly.tar.gz 
 
 This pre-zipped file contains the folder structure and scripts ready for use and broken down by data type.
 
 
-### Databases for PostAssembly.tar.gz
+#### Databases for PostAssembly.tar.gz
 
 These can be downloaded from: LINK TO GO HERE
 

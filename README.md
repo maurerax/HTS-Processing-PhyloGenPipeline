@@ -15,7 +15,7 @@ This pre-zipped file contains the folder structure and scripts ready for use and
 
 #### Databases for PostAssembly.tar.gz
 
-These can be downloaded from: LINK TO GO HERE
+These can be downloaded from: ["Post-Assembly from GoogleDrive"](https://drive.google.com/drive/u/1/folders/0B7QiJDySGTwcSmtwNEdnUkpfUmc, "Post-Assembly from GoogleDrive")
 
 
 ## If using please cite:

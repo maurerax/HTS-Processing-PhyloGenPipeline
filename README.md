@@ -2,6 +2,12 @@
 
 Tools to Process HTS data in conjunction with the KatzLab Phylogenomic Pipeline
 
+### For germline-soma distinctions in ciliates
+
+These scripts, for transcriptome processing, have been used in conjuction with bioinformatic steps dedicated to describing germline-soma genome architectures in ciliates [Germ-Soma Scripts - GitHub](https://github.com/maurerax/KatzLab/tree/SingleCellGermSoma)
+
+Use the above link to learn more about the intent (and limitations) behind those steps.
+
 ### For more information:
 Request viewing access to [Katz-Lab SciWiki](https://sciwiki.smith.edu/katzlab_phylo/index.php/Main_Page) from current members of the Katz Lab at Smith College. 
 

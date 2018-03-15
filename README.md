@@ -2,11 +2,9 @@
 
 Tools to Process HTS data in conjunction with the KatzLab Phylogenomic Pipeline
 
-### Update Note -- 06-Feb-2018
+### Update Note -- 15-Mar-2018
 
-Currently working on an improved version of the work-flow (based on some requests)
-
-Similarly, I am working on updating the appropriate links (some of which appear dead) to be more permanent (thanks for your patience).
+I am working on updating the appropriate links (some of which appear dead) to be more permanent (thanks for your patience).
 
 ### For germline-soma distinctions in ciliates
 
@@ -32,4 +30,4 @@ These can be downloaded from: ["Post-Assembly from GoogleDrive"](https://drive.g
 
 ## If using please cite:
 
-INFO GOES HERE
+Maurer-Alcalá X.X., Knight R., Katz L.A. 2018. Exploration of the Germline Genome of the Ciliate Chilodonella uncinata through Single-Cell Omics (Transcriptomics and Genomics). Mbio 9(1).
